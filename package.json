@@ -1,0 +1,21 @@
+{
+  "name": "online-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakietfit/online-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakietfit/online-academy/issues"
+  },
+  "homepage": "https://github.com/nakietfit/online-academy#readme"
+}
