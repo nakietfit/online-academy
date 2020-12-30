@@ -65,7 +65,7 @@ router.get('/is-available', async function (req, res) {
     return res.json(true);
   }
 
-  return res.json(false)
+  return res.json(false);
 })
 
 module.exports = router;
