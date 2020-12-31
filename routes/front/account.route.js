@@ -51,7 +51,7 @@ router.post('/register', async function (req, res) {
     password: hash,
     name: req.body.name,
     email: req.body.email,
-    role: 'STUDENT',
+    role: req.body.role || 'STUDENT',
   };
 
   await userModel.add(user);
